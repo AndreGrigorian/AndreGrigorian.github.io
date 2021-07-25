@@ -6,8 +6,8 @@ body {
 	font-family: 'Ubuntu', sans-serif;
 	background: #353535;
 	color: #FFF;
-    overflow: hidden;
-    
+    	overflow: hidden;
+	padding-top: 5%;   
 }
 
 
@@ -21,18 +21,23 @@ body {
 }
 
 
-/*GO BUTTON*/
-#div-btn{
-    padding-left: 42%;
-    padding-right: 42%;
-    user-select:none;
+.run-btns{
+    width: 10%;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #353535;
+    color: #FFF;
+    padding: 10px;
+    border-style: solid;
+    border-color: #F7CA18;
+    margin-bottom: 20px;
+    margin-left: 45%;
 }
 
-/*CLEAR BUTTON*/
-#div-btn2{
-    padding-left: 42%;
-    padding-right: 42%;
-    user-select:none;
+.run-btns:hover{
+    background-color: #F7CA18;
+    color: #000000; 
+    box-shadow: 5px 10px 5px #181717;
 }
 
 #monkeImg{
@@ -198,6 +203,13 @@ body {
     #endImg{
         width: 70px;
     }
+    #main-canvas{
+        height: 70%;
+    }
+    .run-btns{
+        width: 20%;
+        margin-left: 40%;
+    }
 }
     
 
@@ -219,7 +231,8 @@ body {
         width: 70%;
         height: 2%;
     }
-    #go{
-        margin-top: 10%;
+    #main-canvas{
+        width: 75%;
+        height: 50%;
     }
 }
