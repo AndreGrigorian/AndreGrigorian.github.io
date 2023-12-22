@@ -1,0 +1,32 @@
+
+
+#stopBtn{
+    display: none;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    cursor: crosshair;
+}
+
+#clockdiv{
+    color: azure;
+}
+
+
+#results{
+    background-color: aquamarine;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 2%;
+    display: none;
+}
+
+#timeContainer{
+    position: absolute;
+    left: 50%;
+    
+}
